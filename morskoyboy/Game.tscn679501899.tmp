@@ -1,0 +1,505 @@
+[gd_scene load_steps=4 format=3 uid="uid://cegeubo02gos8"]
+
+[ext_resource type="Script" uid="uid://cm55k4upw467" path="res://main.gd" id="1_wbfu4"]
+[ext_resource type="Script" uid="uid://dy7lat18ojahm" path="res://Bot.gd" id="2_xkndl"]
+
+[sub_resource type="FontFile" id="FontFile_xkndl"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/36/0/ascent = 0.0
+cache/0/36/0/descent = 0.0
+cache/0/36/0/underline_position = 0.0
+cache/0/36/0/underline_thickness = 0.0
+cache/0/36/0/scale = 1.0
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wbfu4")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.086
+anchor_bottom = 1.068
+offset_left = 7.0
+offset_top = -9.0
+offset_right = 6.92786
+offset_bottom = -9.06403
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.420795, 0.375936, 0.526433, 1)
+
+[node name="MusicPlayer" type="AudioStreamPlayer2D" parent="."]
+autoplay = true
+
+[node name="PlayerGrid" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.086
+anchor_bottom = 1.074
+offset_left = 40.0
+offset_top = 55.0
+offset_right = 39.9279
+offset_bottom = 55.048
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 2
+theme_override_constants/v_separation = 2
+columns = 10
+
+[node name="Button_0_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_0_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_1_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_2_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_3_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_4_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_5_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_6_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_7_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_8_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_0" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_1" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_2" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_3" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_4" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_5" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_6" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_7" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_8" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="Button_9_9" type="Button" parent="PlayerGrid"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+
+[node name="MenuButton" type="Button" parent="."]
+layout_mode = 1
+offset_left = 43.0
+offset_top = 609.0
+offset_right = 194.0
+offset_bottom = 653.0
+text = "Меню"
+
+[node name="EndGameLayer" type="CanvasLayer" parent="."]
+visible = false
+
+[node name="ColorRect" type="ColorRect" parent="EndGameLayer"]
+offset_left = 273.0
+offset_top = 42.0
+offset_right = 1011.0
+offset_bottom = 254.0
+color = Color(0.360784, 0.52549, 1, 1)
+
+[node name="Panel" type="Panel" parent="EndGameLayer/ColorRect"]
+layout_mode = 0
+offset_right = 740.0
+offset_bottom = 213.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="EndGameLayer/ColorRect/Panel"]
+layout_mode = 0
+offset_right = 740.0
+offset_bottom = 213.0
+theme_override_constants/separation = 20
+
+[node name="ResultLabel" type="Label" parent="EndGameLayer/ColorRect/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontFile_xkndl")
+theme_override_font_sizes/font_size = 36
+text = "Победа!"
+horizontal_alignment = 1
+
+[node name="RematchButton" type="Button" parent="EndGameLayer/ColorRect/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+text = "Реванш"
+
+[node name="ExitToMenuButton" type="Button" parent="EndGameLayer/ColorRect/Panel/VBoxContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+text = "Выход в меню"
+
+[node name="Bot" type="Node" parent="."]
+script = ExtResource("2_xkndl")

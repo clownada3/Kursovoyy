@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://60u633sgpqrd"
+path="res://.godot/imported/Saluki - CHANEL CC.mp3-a6a4d3f9c6f7f9f4b23ee4bff958b7bb.mp3str"
+
+[deps]
+
+source_file="res://Saluki - CHANEL CC.mp3"
+dest_files=["res://.godot/imported/Saluki - CHANEL CC.mp3-a6a4d3f9c6f7f9f4b23ee4bff958b7bb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

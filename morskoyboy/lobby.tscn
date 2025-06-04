@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://vv0tt3lb0p4n"]
+
+[ext_resource type="Script" uid="uid://cu2snyvtgrksp" path="res://lobby.gd" id="1_u4ik8"]
+
+[node name="Lobby" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_u4ik8")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 3.0
+offset_right = 141.0
+offset_bottom = 193.0
+
+[node name="InfoLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="IPField" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="PortField" type="LineEdit" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="StartButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Начать"
+
+[node name="BackButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 7
+text = "Назад"
+
+[node name="StatusLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2

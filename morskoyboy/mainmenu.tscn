@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=3 uid="uid://bm6giloa6av30"]
+
+[ext_resource type="Script" uid="uid://3xsttgwmu085" path="res://MainMenu.gd" id="1_cmhrf"]
+[ext_resource type="AudioStream" uid="uid://b80sraoniwtuy" path="res://SALUKI-ЛИХОЛЕСЬЕ.mp3" id="2_d2nv2"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -64.0
+offset_right = 16.0
+offset_bottom = -64.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cmhrf")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4096.0
+offset_top = -4096.0
+offset_right = 4096.0
+offset_bottom = 1741.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.686908, 0.75952, 0.91118, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = -29.0
+offset_top = 192.0
+offset_right = 1208.0
+offset_bottom = 541.0
+theme_override_constants/separation = 20
+metadata/rect = true
+
+[node name="PlayOnlineButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "Играть онлайн"
+
+[node name="PlayBotButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "Играть с ботом"
+
+[node name="SettingsButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "Настройки"
+
+[node name="ExitButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "Выход"
+
+[node name="MusicPlayer" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_d2nv2")
